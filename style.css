@@ -1,0 +1,117 @@
+/*Global Styles*/
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/*Body Styling*/
+body {
+    background-color: #F2EAE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #6C7289;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+h2{
+    font-family: "Fraunces" , serif;
+    font-weight: 700;
+    color: #1C232B;
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*Card Styling*/
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 1rem;
+}
+
+.grid-item {
+    text-align: left;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.grid-item:nth-child(2n) {
+    padding: 2rem;
+}
+
+#description {
+    color: #6C7289;
+    font-family: "Montserrat", serif;
+    font-size: .85rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    
+}
+
+#sale-price {
+    display: flex;
+    align-items: center;
+    color: #3D8168;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#original-price {
+    color: #6C7289;
+    font-family: "Montserrat", serif;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.primary-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: .875rem;
+    font-weight: 600;
+    background-color: #1A4032;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 236px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.primary-btn img {
+    width: 14.39px;
+    height: 16px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-right: 1rem;
+}
