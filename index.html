@@ -10,14 +10,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="icon" t ype="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Frontend Mentor | Product preview card component</title>
 
 </head>
 <body>
  <div class="container-grid">
     <div class="grid-item">
-      <img src="./images/image-product-desktop.jpg" alt="Chanel Perfume">
+      <picture>
+        <source srcset="./image/image-product-mobile.jpg" media="(max-width: 786)">
+        <img src="./images/image-product-desktop.jpg" alt="Chanel Perfume">
+      </picture>
     </div>
     <div class="grid-item">
       <h1>Perfume</h1>
