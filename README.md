@@ -1,4 +1,5 @@
 # Frontend Mentor - Product Preview Card Component Solution
+![Product Preview Card Screenshot](./design/desktop-design.jpg)
 
 ## Table of Contents
 - [Overview](#overview)
